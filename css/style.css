@@ -103,6 +103,12 @@ h6 {
   background: var(--secondary-color);
 }
 
+.btn-block {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
 .card {
   background: #fff;
   padding: 1rem;
@@ -257,6 +263,21 @@ h6 {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+/* Inner Page Grid Container */
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-gap: 1.5rem;
+}
+
+.page-container > *:first-child {
+  grid-row: 1 / span 3;
+}
+
+.l-heading {
+  font-size: 3rem;
 }
 
 /* Footer */
