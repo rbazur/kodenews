@@ -280,6 +280,18 @@ h6 {
   font-size: 3rem;
 }
 
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
+}
+
 /* Footer */
 #main-footer {
   background: var(--dark-color);
